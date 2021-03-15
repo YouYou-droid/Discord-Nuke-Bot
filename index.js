@@ -33,4 +33,4 @@ if(msg.content.toLowerCase().startsWith(`${prefix}` + "help")){
 }
 });
 
-client.login(token);
+client.login(process.env.TOKEN);
