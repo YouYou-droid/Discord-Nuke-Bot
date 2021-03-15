@@ -33,4 +33,4 @@ if(msg.content.toLowerCase().startsWith(`${prefix}` + "help")){
 }
 });
 
-client.login(process.env.TOKEN);
+client.login("ODE0MTU3NjEyNzkwNTc5MjIx.YDZxXQ.wD1mIGSq9Fgj9Uqwqzh1wEypYsc");
